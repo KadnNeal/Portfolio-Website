@@ -1,0 +1,33 @@
+
+.portfolios-wrapper {
+    padding-top: 30px;
+    border-top: 10px solid #ff0077;
+}
+
+.portfolios {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+    text-align: center;
+  }
+  
+.swe-portfolio-front, .field-tech-portfolio-front {
+    background-image: linear-gradient(to right, #ff0077, #ff5577); /* Replace with your desired color */
+    color: black; /* Text color */
+    width: 265px; /* Width of the box */
+    height: 300px; /* Height of the box */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    text-transform: uppercase; /* Optional: makes the text uppercase */
+    font-weight: bold; /* Optional: makes the text bold */
+    font-size: 24px; /* Optional: sets the size of the text */
+    padding: 20px;
+    margin: 30px;
+    transition: 0.8s ease;
+}
+
+.swe-portfolio-front:hover, .field-tech-portfolio-front:hover {
+    width: 300px;
+    cursor: pointer;
+}
