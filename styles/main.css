@@ -105,102 +105,251 @@ footer {
   text-align: center;
 }
 
-.mission-wrapper {
-  padding-top: 30px;
-  width: 100%;
-}
+@media only screen and (min-width: 290px) and (max-width: 700px) {
+  .mission-wrapper {
+    padding-top: 30px;
+    width: 100%;
+  }
 
-.fit-pic {
-  display: none;
-}
+  .fit-pic {
+    display: none;
+  }
 
-.mission {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 85px;
-  padding-top: 0px;
-  padding-bottom: 30px;
-  text-align: center;
-}
+  .mission {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 85px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
 
-#mission-header {
-  text-align: center;
-  padding-top: 20px;
-}
+  #mission-header {
+    text-align: center;
+    padding-top: 20px;
+  }
 
-#skills-header {
-  text-align: center;
-  padding-top: 20px;
-}
+  /* swe portfolio style */
+  .projects {
+    padding: 70px;
+    margin-bottom: -50px;
+  }
 
-.skills-list {
-  display: flex;
-  padding-top: 50px;
-  padding-bottom: 75px;
-  width: 90%;
-  margin: 0 auto;
-}
+  #projects-header  {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -20px;
+  }
 
-.skill-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-overflow: 1;
-  text-align: center;
-  width: 50%;
-  margin: 10px;
+  .projects p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .skills {
+    margin-bottom: -50px;
+  }
+
+  #skills-header {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-overflow: 1;
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+  }
+
+  /* fe port style */
+  .experience {
+    padding: 70px;
+    margin-bottom: -50px;
+  }
+
+  #experience-header  {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -20px;
+  }
+
+  .experience p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* contact style */
+  .contact-wrapper {
+    padding-top: 30px;
+    border-top: 10px solid #ff0077;
+  }
+
+  .contact {
+    margin-bottom: -50px;
+  }
+
+  #contact-header  {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -20px;
+  }
+
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    width: 90%;
+    margin: 0px;
+  }
+
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-overflow: 1;
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+  }
 }
 
 /* pc display styling */
-@media only screen and (min-width : 1000px) {
-    .mission-wrapper {
-      padding-top: 30px;
-    }
+@media only screen and (min-width: 1000px) {
 
-    .mission {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 100px;
-      padding-top: 0px;
-      padding-bottom: 30px;
-    }
+  /* home page style */
+  .mission-wrapper  {
+    padding-top: 30px;
+  }
 
-    .fit-pic {
-    width: 320px;
-    height: 260px;
-    }
+  .mission {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
 
-    #mission-header {
-      text-align: center;
-      padding-top: 20px;
-    }
+  .fit-pic {
+  width: 320px;
+  height: 260px;
+  }
 
-    .mission p, .mission image {
-      padding: 50px;
-    }
+  #mission-header  {
+    text-align: center;
+    padding-top: 20px;
+  }
 
-    #skills-header {
-      text-align: center;
-      padding-top: 20px;
-    }
+  .mission p, .mission image {
+    padding: 50px;
+  }
 
-    .skills-list {
-      display: flex;
-      padding-top: 50px;
-      padding-bottom: 75px;
-      width: 90%;
-      margin: 0 auto;
-    }
+  /* swe portfolio style */
+  .projects {
+    padding: 70px;
+    margin-bottom: -50px;
+  }
 
-    .skill-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-overflow: 1;
-      text-align: center;
-      width: 50%;
-      margin: 10px;
-    }
+  #projects-header  {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -20px;
+  }
+
+  .projects p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #skills-header {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .skills-list {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-overflow: 1;
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+  }
+
+  /* fe portfolio style */
+  .experience {
+    padding: 70px;
+    margin-bottom: -50px;
+  }
+
+  #experience-header  {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -20px;
+  }
+
+  .experience p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* contact style */
+  .contact-wrapper {
+    padding-top: 30px;
+    border-top: 10px solid #ff0077;
+  }
+
+  .contact {
+    margin-bottom: -50px;
+  }
+
+  #contact-header  {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .contact-list {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-overflow: 1;
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+  }
 }
